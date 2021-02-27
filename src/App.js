@@ -8,7 +8,7 @@ import HomePage from './pages/home_page'
 import MinistriesPage from "./pages/ministries_page"
 import TeamsPage from "./pages/team_page"
 import FAQPage from "./pages/faq_page"
-import HistoryPage from "./pages/history_page"
+import AboutPage from "./pages/about_page"
 import TimesPage from "./pages/times_page"
 
 
@@ -24,7 +24,7 @@ class App extends Component {
             <Route exact path='/' component={HomePage} />
             <Route path='/home' component={HomePage} />
             <Route path='/ministries' component={MinistriesPage}/> 
-            <Route path='/history' component={HistoryPage}/>
+            <Route path='/about' component={AboutPage}/>
             <Route path='/team' component={TeamsPage}/>
             <Route path='/times' component={TimesPage}/>
             <Route path='/faq' component={FAQPage}/>
