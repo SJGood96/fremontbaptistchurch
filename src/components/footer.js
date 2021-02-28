@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/footer.css"
 
-function Footer() {
+const Footer = () => {
   const developerName = 'Spencer Good'
   return (
-    <div>
+    <div className="footer">
       <hr/>
       <p>Developer: {developerName}
       <br/>

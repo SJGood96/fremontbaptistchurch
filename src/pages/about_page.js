@@ -35,6 +35,7 @@ function AboutPage() {
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. 
                 </p>
                 </div>
+
             </div>  
     )
 }

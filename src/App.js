@@ -29,6 +29,10 @@ class App extends Component {
             <Route path='/times' component={TimesPage}/>
             <Route path='/faq' component={FAQPage}/>
           </Switch>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
           <Footer />
         </main>
         <br/>
