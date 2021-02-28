@@ -1,5 +1,8 @@
 import React, { Component } from "react"
 import "../styles/ministries_page.css"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 function MinistriesPage() {
@@ -8,7 +11,10 @@ function MinistriesPage() {
             <h1>Ministries</h1>
             <br/>
 
-            <div className="foodBank">
+            <Container>
+                    <Row>
+                        <Col>
+                        <div className="foodBank">
             <h2>Food Bank</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore et <br/>dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation <br/>ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. 
@@ -16,8 +22,10 @@ function MinistriesPage() {
                 Excepteur sint occaecat cupidatat non proident, <br/>sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
+                        </Col>
 
-            <div className="clothing">
+                        <Col>
+                        <div className="clothing">
             <h2>Clothing for the Homeless</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore et <br/>dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation <br/>ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. 
@@ -25,21 +33,35 @@ function MinistriesPage() {
                 Excepteur sint occaecat cupidatat non proident, <br/>sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
+                        </Col>
+                    </Row>
 
-            <div className="prayer">
+                    <Row>
+                        <Col>
+                        <div className="prayer">
             <h2>Prayer Meeting</h2>
-                <p>When: Lorem ipsum dolor</p>
+                <p>When: Every Wednessday</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et <br/>dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud <br/> exercitation ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. </p>
             </div>
+                        </Col>
 
-            <div className="breakfast">
+                        <Col>
+                        <div className="breakfast">
             <h2>Men's Breakfast</h2>
-                <p>When: Lorem ipsum dolor</p>
+                <p>When: Third Saturday of the month</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et <br/>dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud <br/> exercitation ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. </p>
             </div>
+                        </Col>
+                    </Row>
+                </Container>  
+
+
+
             <br/>
+
+
 
         </div>
     )

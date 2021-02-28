@@ -1,14 +1,21 @@
 import React from 'react'
 import "../styles/about_page.css"
+import "../styles/footer.css"
+import worker from "../images/worker.jpg"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function AboutPage() {
 
     return (
         <div id="about_page">
-            <h1>About</h1>
             <br/>
-
-                <div className="whoWeAre">
+            <h1>The Church</h1>
+                <Container>
+                    <Row>
+                        <Col>
+                        <div className="whoWeAre">
                 <h2>Who We Are</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore et <br/>dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation <br/>ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. 
@@ -16,8 +23,10 @@ function AboutPage() {
                 Excepteur sint occaecat cupidatat non proident, <br/>sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 </div>
+                        </Col>
 
-                <div classname="ourHistory">
+                        <Col>
+                        <div classname="ourHistory">
                 <h2>Our History</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore et <br/>dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation <br/>ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. 
@@ -25,18 +34,18 @@ function AboutPage() {
                 Excepteur sint occaecat cupidatat non proident, <br/>sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 </div>
+                        </Col>
+                    </Row>
+                </Container>
 
                 <br/>
                 <br/>
 
-                <div classname="whatWeBelieve">
-                <h2><center>What we believe in</center></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br/>dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <br/>ea commodo consequat. 
-                </p>
-                </div>
+                <div className="worker" class="column">
+                    <img src={worker} width="600" height="550" />
+                 </div> 
 
-            </div>  
+            </div> 
     )
 }
 

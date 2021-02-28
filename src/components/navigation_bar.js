@@ -18,8 +18,9 @@ function NavBar() {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <NavDropdown.Item eventKey={3.1} href="/about">About</NavDropdown.Item>
-                        <NavDropdown.Item eventKey={3.2} href="/team">Meet the Pastors</NavDropdown.Item>
+                        <NavDropdown.Item eventKey={3.1} href="/about">Our Church</NavDropdown.Item>
+                        <NavDropdown.Item eventKey={3.2} href='/beliefs-and-values'>Beliefs and Values</NavDropdown.Item>
+                        <NavDropdown.Item eventKey={3.3} href="/team">Meet the Pastors</NavDropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 </li>

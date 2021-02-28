@@ -1,0 +1,23 @@
+.seniorPastor {
+    display: block;
+    float: left;
+    margin: 0px 110px 20px;
+}
+
+.pastorJeff {
+    display: block;
+    float: right;
+    margin: 0px 10px 20px;
+}
+
+.pastorMike {
+    display: block;
+    float: left;
+    margin: 0px 110px 20px;
+}
+
+.pastor {
+    display: block;
+    float: right;
+    margin: 0px 10px 20px;
+}

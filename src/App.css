@@ -26,10 +26,15 @@
 .App-heading-text {
   font-style: italic;
   font-variant: small-caps;
-  background-image: url('./images/fremontbaptist_logo.jpg');
-  background-repeat: no-repeat;
   background-size: 70px 50px;
   background-position: left;
+  padding-right: 400px;
+}
+
+.logo{
+  display: block;
+  float: left;
+  padding-left: 260px;
 }
 
 .App-link {

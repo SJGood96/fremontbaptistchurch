@@ -1,15 +1,9 @@
 .whoWeAre {
-    display: block;
-    float: left;
+    display: inline-block;
     margin: 0px 110px 20px;
 }
 
 .ourHistory {
-    display: block;
-    float: right;
-}
-
-.whatWeBelieve{
-    display: block;
-    float: none;
+    display:inline-block;
+    margin: 0px 110px 20px;
 }
