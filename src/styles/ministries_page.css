@@ -1,0 +1,20 @@
+.foodBank {
+    display: inline-block;
+    margin: 0px 110px 20px;
+}
+
+.clothing {
+    display: inline-block;
+    margin: 0px 110px 20px;
+}
+
+.prayer {
+    display: block;
+    float: left;
+    margin: 0px 110px 20px;
+}
+
+.breakfast {
+    display: inline-block;
+    margin: 0px 110px 20px;
+}
