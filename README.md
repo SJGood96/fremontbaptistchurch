@@ -1,2 +1,2 @@
 # fremontbaptistchurch
-This is an ongoing personal project using Reactjs, HTML, and CSS.
+This is an ongoing personal project using Reactjs, React Bootstrap, HTML, and CSS.
